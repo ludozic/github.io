@@ -1,2 +1,2 @@
-# github.io
+# ludozic.github.io
 LD EOS Redirect
