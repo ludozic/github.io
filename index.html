@@ -4,32 +4,12 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.ld-eos.com;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Site</title>
+    <title>LD EOS Co., Ltd.</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <iframe id="contentFrame" title="Content Frame"></iframe>
     <script src="script.js"></script>
-    <script>
-        // Get the current path
-        const path = window.location.pathname;
-
-        // Set the iframe source based on the current path
-        const targetUrl = `https://ldeos-tech-solutions-mefpgm9.gamma.site${path}`;
-        const iframe = document.getElementById('contentFrame');
-
-        // Set the iframe source
-        iframe.src = targetUrl;
-
-        // Check if the iframe loads successfully
-        iframe.onload = function() {
-            console.log("Iframe loaded: " + targetUrl);
-        };
-
-        iframe.onerror = function() {
-            console.error("Error loading: " + targetUrl);
-        };
-    </script>
 </body>
 </html>
