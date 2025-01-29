@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LD EOS Co., Ltd.</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
+    <title>LD EOS is redirecting you...</title>
+    <script>
+        // Get the current path
+        const path = window.location.pathname;
+
+        // Construct the new URL based on the current path
+        const newUrl = `https://ldeos-tech-solutions-mefpgm9.gamma.site${path}`;
+
+        // Redirect to the new URL
+        window.location.href = newUrl;
+    </script>
 </head>
 <body>
-    <iframe src="https://ldeos-tech-solutions-mefpgm9.gamma.site/"></iframe>
+    <p>Redirecting... If you are not redirected, <a id="link" href="#">click here</a>.</p>
+    <script>
+        // Update the link for manual redirection
+        document.getElementById('link').href = `https://ldeos-tech-solutions-mefpgm9.gamma.site${path}`;
+    </script>
 </body>
 </html>
